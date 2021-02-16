@@ -35,6 +35,9 @@ export default {
   name: "App",
   data: function() {
     return { drawer: true };
+  },
+  mounted() {
+    this.$router.push({ name: "Home" });
   }
 };
 </script>
